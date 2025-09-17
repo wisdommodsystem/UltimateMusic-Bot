@@ -209,7 +209,7 @@ class CentralEmbedHandler {
                     .setThumbnail(trackInfo.thumbnail || 'https://cdn.discordapp.com/emojis/896724352949706762.gif')
                     .setImage(trackInfo.paused ? null : 'https://i.ibb.co/KzbPV8jd/aaa.gif')
                     .setFooter({ 
-                        text: `Ultimate Music Bot • ${statusText} Developed By GlaceYT`,
+                        text: `MelodyAI BOT • ${statusText} Developed By Apollo 💎`,
                         iconURL: this.client.user.displayAvatarURL()
                     })
                     .setTimestamp();
@@ -365,5 +365,6 @@ class CentralEmbedHandler {
 }
 
 module.exports = CentralEmbedHandler;
+
 
 
